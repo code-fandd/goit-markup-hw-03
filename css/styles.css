@@ -8,6 +8,13 @@
     --c-back-team: #F4F4FD;
 
 }
+/*
+.container {
+    max-width:
+        padding-left: padding-right: margin-left: margin-right:
+}*/
+
+
 body{
     color: var(--c-haup);
     background-color: var(--c-primary-light);
@@ -20,6 +27,15 @@ a{
 }
 ul{
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+img {
+    display: block;
 }
 
 .logo {
@@ -73,6 +89,10 @@ color: var(--c-primary-dunckel);
 
 .effect-section{
     background-color: var(--c-dunckel);
+    padding: 188px  0 292px ;
+    text-align: center;
+    margin: 0 auto;
+  /*  border: 10px solid #404BBF;*/
 }
 .effect{
     color: var(--c-primary-light);
@@ -115,7 +135,7 @@ color: var(--c-primary-dunckel);
 
 .sec-team {
     background-color: var(--c-back-team);
-    
+        padding: 232px  0 120px;
 }
 .our-team {
     color: var(--c-dunckel);
@@ -138,6 +158,7 @@ color: var(--c-primary-dunckel);
 
 .list-backgr-light{
     background-color: #FFFFFF;
+    display: inline;
 }
 .staff-description{
     color: var(--c-haup);
@@ -153,5 +174,9 @@ color: var(--c-primary-dunckel);
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.box {
+    display: block;
 }
 
