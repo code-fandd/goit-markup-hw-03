@@ -211,7 +211,7 @@ img {
     gap:60;
 
 }
-.advantage-block{
+.advantage-bloсk{
     padding: 120px 0;
 }
 
@@ -238,22 +238,25 @@ img {
     text-transform: capitalize;
     margin-bottom: 72px;
 }
+.our-team-list{
+    display: flex;
+    gap: 24px;
+}
 .team-h {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
+text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--c-dunckel);
+    margin-bottom: 8px;
 }
-
-
-
 
 .list-backgr-light{
     background-color: #FFFFFF;
     display: inline-block;
+    width: calc((100% - 72px) / 4);
 }
 .staff-description{
     color: var(--c-haup);
@@ -262,7 +265,13 @@ img {
     font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0.02em;
+    text-align: center;
 }
+.team-box{
+    padding: 32px 0;
+}
+
+
 .p-footer {
     color: var(--c-back-team);
     font-size: 16px;
