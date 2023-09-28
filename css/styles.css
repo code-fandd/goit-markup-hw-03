@@ -225,6 +225,7 @@ img {
 /*section 3  Our Team*/
 .sec-team {
     background-color: var(--c-back-team);
+    padding: 120px 0;
     /*padding: 232px  0 120px;*//*так как отступы есть уже в классе секуии section*/
 }
 .our-team {
@@ -235,6 +236,7 @@ img {
     line-height: 1.11em;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 .team-h {
     font-weight: 500;
