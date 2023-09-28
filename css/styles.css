@@ -196,6 +196,7 @@ img {
     line-height: 1.5em;
     letter-spacing: 0.02em;
     font-weight: 400;
+
 }
 
 .advantage-list {
@@ -209,10 +210,10 @@ img {
     display: inline-block;
     width: calc((100% - 72px) / 4);
     gap:60;
-
 }
 .advantage-bloсk{
     padding: 120px 0;
+     
 }
 
 
@@ -246,7 +247,7 @@ img {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-text-align: center;
+    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color:var(--c-dunckel);
@@ -254,9 +255,14 @@ text-align: center;
 }
 
 .list-backgr-light{
-    background-color: #FFFFFF;
+
     display: inline-block;
     width: calc((100% - 72px) / 4);
+
+}
+.team-item{
+    border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
 }
 .staff-description{
     color: var(--c-haup);
