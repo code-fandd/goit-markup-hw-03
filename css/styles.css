@@ -252,6 +252,7 @@ img {
     text-transform: capitalize;
     color:var(--c-dunckel);
     margin-bottom: 8px;
+    
 }
 
 .list-backgr-light{
@@ -263,10 +264,7 @@ img {
 
 
 }
-.team-item{
 
-    
-}
 .staff-description{
     color: var(--c-haup);
     text-align: center;
@@ -276,8 +274,9 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
 }
-.team-box{
-    padding: 32px 0;
+. {}
+.team-container{
+    padding: 32px 0
 }
 
 
