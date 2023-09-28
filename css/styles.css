@@ -8,13 +8,75 @@
     --c-back-team: #F4F4FD;
 
 }
-/*
-.container {
-    max-width:
-        padding-left: padding-right: margin-left: margin-right:
-}*/
+
+/* Header*/
+.header-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.header-nav {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: var(--c-but);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo .accent {
+    color: var(--c-dunckel);
+}
+
+.accent-light {
+    color: var(--c-back-team);
+}
+
+.nav-list{
+    display:flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.nav-link {
+    display: inline-block;
+    color: var(--c-dunckel);
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px;
+}
+
+.nav-link:active {
+    color: var(--c-primary-dunckel);
+}
+
+.nav-link:focus {
+    color: var(--c-primary-dunckel);
+}
+
+.nav-link:hover {
+    color: var(--c-primary-dunckel);
+}
 
 
+.header-social {
+    display: flex;
+    gap: 40px;
+
+}
 body{
     color: var(--c-haup);
     background-color: var(--c-primary-light);
@@ -38,38 +100,23 @@ img {
     display: block;
 }
 
-.logo {
-    color: var(--c-but);
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
-.logo .accent {
-     color: var(--c-dunckel);
-}
-.accent-light{
-        color: var(--c-back-team);
+.section {
+    padding: 12px 64px 12px 0;
 }
 
-.nav-link {
-    color: var(--c-dunckel);
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.container{
+    /*
+        max-width:
+            padding-left: padding-right: margin-left: margin-right:
+    }*/
+    max-width: 1158px;/*почему? как найти?*/
+    margin: 0 auto;
+    padding: 32px; 
 }
-.nav-link:active {
-color: var(--c-primary-dunckel);
-}
-.nav-link:focus {
-    color: var(--c-primary-dunckel);
-}
-.nav-link:hover {
-    color: var(--c-primary-dunckel);
-}
+
+
+
+
 .adress{
         font-style: normal;
 }
@@ -87,11 +134,13 @@ color: var(--c-primary-dunckel);
     color: var(--c-primary-dunckel);
 }
 
-.effect-section{
+
+
+.dark-bg-section{ 
     background-color: var(--c-dunckel);
     padding: 188px  0 292px ;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto; /* zentrierter Titel */
   /*  border: 10px solid #404BBF;*/
 }
 .effect{
@@ -101,7 +150,7 @@ color: var(--c-primary-dunckel);
     font-weight: 700;
     line-height: 1.07em;
     letter-spacing: 0.02em;
-    text-align: center;
+   /* text-align: center;*/ /*если раскомментировать о фото распологаются в столбик*/
 }
 .effect-button{
     background: var(--c-but);
@@ -133,9 +182,11 @@ color: var(--c-primary-dunckel);
     font-weight: 400;
 }
 
+
+/*section 3  Our Team*/
 .sec-team {
     background-color: var(--c-back-team);
-        padding: 232px  0 120px;
+    /*padding: 232px  0 120px;*//*так как отступы есть уже в классе секуии section*/
 }
 .our-team {
     color: var(--c-dunckel);
@@ -155,10 +206,19 @@ color: var(--c-primary-dunckel);
     text-transform: capitalize;
     color:var(--c-dunckel);
 }
+.advantage-list{
+    display: flex;
+    gap: 24px;
+}
+
+.advantage-item {
+    background-color: #FFFFFF;
+    display: inline-block;
+}
 
 .list-backgr-light{
     background-color: #FFFFFF;
-    display: inline;
+    display: inline-block;
 }
 .staff-description{
     color: var(--c-haup);
@@ -179,4 +239,5 @@ color: var(--c-primary-dunckel);
 .box {
     display: block;
 }
+
 
