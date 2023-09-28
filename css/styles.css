@@ -75,7 +75,10 @@
 .header-social {
     display: flex;
     gap: 40px;
+}
 
+.wweerr{
+    
 }
 body{
     color: var(--c-haup);
