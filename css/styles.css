@@ -209,11 +209,12 @@ img {
     display: inline-block;
     width: calc((100% - 72px) / 4);
     gap:60;
-    padding: 120px 0;
-}
-.advantage-item:first-child {
 
 }
+.advantage-block{
+    padding: 120px 0;
+}
+
 
 .visually-hidden { /* hide this title visually */
     display: none; 
