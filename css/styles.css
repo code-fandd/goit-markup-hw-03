@@ -77,8 +77,8 @@
     gap: 40px;
 }
 
-.wweerr{
-    
+.header-all{
+    border-bottom: 1px solid #e7e9fc ;
 }
 body{
     color: var(--c-haup);
@@ -112,9 +112,11 @@ img {
         max-width:
             padding-left: padding-right: margin-left: margin-right:
     }*/
+        display: flex;
     max-width: 1158px;/*почему? как найти?*/
     margin: 0 auto;
     padding: 32px; 
+        padding: 0 15px;
 }
 
 
