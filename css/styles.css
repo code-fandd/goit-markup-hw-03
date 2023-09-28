@@ -200,8 +200,8 @@ img {
 
 .advantage-list {
     display: flex;
-   /* gap: 24px;*/
-    padding: 120px 0;
+    gap: 24px;
+  
 }
 
 .advantage-item {
@@ -209,6 +209,7 @@ img {
     display: inline-block;
     width: calc((100% - 72px) / 4);
     gap:60;
+    padding: 120px 0;
 }
 .advantage-item:first-child {
 
