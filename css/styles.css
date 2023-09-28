@@ -182,12 +182,14 @@ img {
 .effect-button:focus{
     background: var(--c-primary-dunckel);
 }
+  /*  section 2 Our advantages  */
 .advantages{
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2em;
         letter-spacing: 0.02em;
         color: var(--c-dunckel);
+        margin-bottom: 8px;
 }
 
 .advantages-p{
@@ -195,6 +197,27 @@ img {
     letter-spacing: 0.02em;
     font-weight: 400;
 }
+
+.advantage-list {
+    display: flex;
+   /* gap: 24px;*/
+    padding: 120px 0;
+}
+
+.advantage-item {
+    background-color: #FFFFFF;
+    display: inline-block;
+    width: calc((100% - 72px) / 4);
+    gap:60;
+}
+.advantage-item:first-child {
+
+}
+
+.visually-hidden { /* hide this title visually */
+    display: none; 
+}
+
 
 
 /*section 3  Our Team*/
@@ -220,15 +243,9 @@ img {
     text-transform: capitalize;
     color:var(--c-dunckel);
 }
-.advantage-list{
-    display: flex;
-    gap: 24px;
-}
 
-.advantage-item {
-    background-color: #FFFFFF;
-    display: inline-block;
-}
+
+
 
 .list-backgr-light{
     background-color: #FFFFFF;
