@@ -121,7 +121,8 @@ img {
 .container {
   /*
         max-width:
-            padding-left: padding-right: margin-left: margin-right:
+            padding-left: padding-right: margin-left:
+             margin-right:
     }*/
   display: flex;
   max-width: 1158px; /*почему? как найти?*/
@@ -165,7 +166,11 @@ img {
   line-height: 1.07em;
   letter-spacing: 0.02em;
   max-width: 496px;
-  /* text-align: center;*/ /*если раскомментировать о фото распологаются в столбик*/
+  /* text-align: center;*/ /*если раскомментировать
+   о фото распологаются в столбик*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .effect-button {
   background: var(--c-but);
@@ -175,10 +180,14 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  display: block;
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.effect-dop {
+  display: block;
 }
 .effect-button:hover {
   background: var(--c-primary-dunckel);
@@ -187,6 +196,22 @@ img {
 .effect-button:focus {
   background: var(--c-primary-dunckel);
 }
+
+/*display: block; для можливості центрувати кнопку 
+через властивість margin
+
+min-width: 169px для визначення мінімальної ширини кнопки
+
+height: 56px для визначення висоти кнопки
+
+border: none; для вимкнення стандартного оформлення кнопки
+
+background-color: в який записана css змінна зі значенням #4d5ae5; для зазначення фону кнопки
+
+border-radius: 4px; для визначення заокруглень у кнопки
+
+cursor: pointer; для визначення типу курсору на кнопці*/
+
 /*  section 2 Our advantages  */
 .advantages-all {
   padding: 120px 0;
