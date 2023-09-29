@@ -213,11 +213,9 @@ img {
     width: calc((100% - 72px) / 4);
     gap:60;
 }
-.advantage-bloсk{
-
-     
+.visually-hidden{
+    display: none;
 }
-
 
  /* hide this title visually        display: none;*/
 .visually-hidden {
