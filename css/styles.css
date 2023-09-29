@@ -372,7 +372,7 @@ cursor: pointer; для визначення типу курсору на кно
 }
 
 .footerf {
-  /* display: inline-block;*/
+  display: inline-block;
   margin-bottom: 16px;
 }
 .effect-dop {
