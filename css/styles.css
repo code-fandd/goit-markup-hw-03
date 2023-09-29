@@ -233,9 +233,11 @@ img {
 
 
 /*section 3  Our Team*/
+
 .sec-team {
     background-color: var(--c-back-team);
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
     /*padding: 232px  0 120px;*//*так как отступы есть уже в классе секуии section*/
 }
 .our-team {
