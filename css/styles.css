@@ -307,9 +307,9 @@ width: calc((100% - 48px) / 3);
 /*   footer   */
 .dark-bg-section-footer{
     background-color: var(--c-dunckel);
-padding: 100px 0;
-        text-align: center;
-        margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+    margin: 0 auto;
 }
 .p-footer {
     color: var(--c-back-team);
