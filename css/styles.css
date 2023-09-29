@@ -319,6 +319,13 @@ cursor: pointer; для визначення типу курсору на кно
 }
 
 .portfolio-h {
+  color: var(--c-dunckel);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11em;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   margin-bottom: 72px;
 }
 .portfolio-ul {
@@ -349,7 +356,6 @@ cursor: pointer; для визначення типу курсору на кно
 .dark-bg-section-footer {
   background-color: var(--c-dunckel);
   padding: 100px 0;
-  text-align: center;
   margin: 0 auto;
 }
 .p-footer {
@@ -366,6 +372,9 @@ cursor: pointer; для визначення типу курсору на кно
 }
 
 .footerf {
-  display: inline-block;
+  /* display: inline-block;*/
   margin-bottom: 16px;
+}
+.effect-dop {
+  justify-content: flex-start;
 }
