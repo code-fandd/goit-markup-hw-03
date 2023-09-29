@@ -115,14 +115,11 @@ img {
         max-width:
             padding-left: padding-right: margin-left: margin-right:
     }*/
-        display: flex;
+    display: flex;
     max-width: 1158px;/*почему? как найти?*/
     margin: 0 auto;
-    padding: 32px; 
-        padding: 0 15px;
+    padding: 0 15px;
 }
-
-
 
 
 .adress{
@@ -183,7 +180,7 @@ img {
     background: var(--c-primary-dunckel);
 }
   /*  section 2 Our advantages  */
-.advantages{
+.advantages-h{
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2em;
