@@ -180,6 +180,9 @@ img {
     background: var(--c-primary-dunckel);
 }
   /*  section 2 Our advantages  */
+  .advantages-all{
+    padding: 120px 0;
+  }
 .advantages-h{
         font-size: 20px;
         font-weight: 500;
@@ -209,7 +212,7 @@ img {
     gap:60;
 }
 .advantage-bloсk{
-    padding: 120px 0;
+
      
 }
 
