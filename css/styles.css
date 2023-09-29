@@ -235,10 +235,8 @@ img {
 /*section 3  Our Team*/
 
 .sec-team {
+    padding: 120px 0;
     background-color: var(--c-back-team);
-    padding-top: 120px;
-    padding-bottom: 120px;
-    /*padding: 232px  0 120px;*//*так как отступы есть уже в классе секуии section*/
 }
 .our-team {
     color: var(--c-dunckel);
@@ -292,6 +290,11 @@ width: calc((100% - 48px) / 3);
 }
 
     /*   section 4   */
+.portfolio-all{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .portfolio-h{
     margin-bottom: 72px;
 }
