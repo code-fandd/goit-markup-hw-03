@@ -219,7 +219,7 @@ img {
 }
 
 
- /* hide this title visually */
+ /* hide this title visually        display: none;*/
 .visually-hidden {
         position: absolute;
         width: 1px;
