@@ -16,9 +16,7 @@
 }
 .header-nav {
   display: flex;
-
   align-items: center;
-  flex-grow: 1;
 }
 
 .logo {
@@ -132,6 +130,7 @@ img {
 
 .adress {
   font-style: normal;
+  margin-left: auto;
 }
 .adress-a {
   font-weight: 400;
@@ -291,6 +290,16 @@ cursor: pointer; для визначення типу курсору на кно
   color: var(--c-dunckel);
   margin-bottom: 8px;
 }
+.portfolio-h {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: left;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--c-dunckel);
+  margin-bottom: 8px;
+}
 
 .list-backgr-light {
   display: inline-block;
@@ -301,12 +310,20 @@ cursor: pointer; для визначення типу курсору на кно
 
 .staff-description {
   color: var(--c-haup);
-  text-align: center;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5em;
   letter-spacing: 0.02em;
   text-align: center;
+}
+
+.portfolio-description {
+  color: var(--c-haup);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  text-align: left;
 }
 .team-container {
   padding: 32px 0;
@@ -318,7 +335,7 @@ cursor: pointer; для визначення типу курсору на кно
   padding-bottom: 120px;
 }
 
-.portfolio-h {
+.portfolio-hidden {
   color: var(--c-dunckel);
   text-align: center;
   font-size: 36px;
